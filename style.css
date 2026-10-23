@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #263445;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #102b46, #176b70);
+    color: white;
+    text-align: center;
+    padding: 45px 20px 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 14px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #278b89;
+}
+
+main {
+    max-width: 1100px;
+    width: 92%;
+    margin: 35px auto;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(25, 45, 65, 0.07);
+}
+
+section h2 {
+    color: #124b62;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d8e9ed;
+}
+
+section h3 {
+    color: #176b70;
+    margin: 22px 0 10px;
+}
+
+article {
+    padding: 12px 18px;
+    margin: 18px 0;
+    border-left: 4px solid #278b89;
+    background-color: #f7fafc;
+}
+
+.ecuacion {
+    background-color: #e8f5f4;
+    color: #124b62;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #d6e0e8;
+    padding: 13px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #124b62;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f6f9;
+}
+
+#datos p {
+    padding: 10px 12px;
+    background-color: #f4f7fb;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #102b46;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 30px 14px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    section {
+        padding: 20px 16px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+}
